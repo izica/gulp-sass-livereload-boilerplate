@@ -16,10 +16,10 @@ var path = {
     src: {
         css:    './src/scss/global.scss',
         js:     './src/js/*.js',
-        images: './src/i/*',
+        images: './src/i/**/*',
     },
     watch: {
-        scss:   './src/scss/**/*.scss',
+        css:   './src/scss/**/*.scss',
         js:     './src/js/*.js',
     }
 };
@@ -51,7 +51,7 @@ gulp.task('images', function() {
 
 //watcher
 gulp.task('watch', function(){
-    watch([path.watch.styles], function(event, cb) {
+    watch([path.watch.css], function(event, cb) {
         gulp.start('scss');
     });
     watch([path.watch.js], function(event, cb) {
