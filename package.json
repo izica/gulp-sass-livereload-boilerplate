@@ -8,8 +8,8 @@
     "url": "git+https://github.com/izica/psd2html-gulp-skeleton.git"
   },
   "scripts": {
-  	"watch": "gulp watch",
-  	"build": "gulp default"
+    "start": "gulp",
+    "build": "gulp build"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +21,9 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
     "gulp-csso": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
     "gulp-tinypng-nokey": "^1.0.4",
     "gulp-uglify": "^2.0.0",
