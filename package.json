@@ -1,35 +1,35 @@
 {
-  "name": "psd2html-gulp-skeleton",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/izica/psd2html-gulp-skeleton.git"
-  },
-  "scripts": {
-    "start": "gulp",
-    "build": "gulp build",
-    "images": "gulp images",
-    "css": "gulp css",
-    "js": "gulp js"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/izica/psd2html-gulp-skeleton/issues"
-  },
-  "homepage": "https://github.com/izica/psd2html-gulp-skeleton#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-csso": "^2.0.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-tinypng-nokey": "^1.0.4",
-    "gulp-uglify": "^2.0.0",
-    "gulp-watch": "^4.3.11"
-  }
+    "name": "psd2html-gulp-skeleton",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/izica/psd2html-gulp-skeleton.git"
+    },
+    "scripts": {
+        "start": "gulp",
+        "build": "gulp build",
+        "images": "gulp images",
+        "css": "gulp css",
+        "js": "gulp js"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/izica/psd2html-gulp-skeleton/issues"
+    },
+    "homepage": "https://github.com/izica/psd2html-gulp-skeleton#readme",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-connect": "^5.0.0",
+        "gulp-csso": "^2.0.0",
+        "gulp-plumber": "^1.1.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-tinypng-nokey": "^1.0.4",
+        "gulp-uglify": "^2.0.0",
+        "gulp-watch": "^4.3.11"
+    }
 }
