@@ -7,6 +7,10 @@
     "type": "git",
     "url": "git+https://github.com/izica/psd2html-gulp-skeleton.git"
   },
+  "scripts": {
+  	"watch": "gulp watch",
+  	"build": "gulp default"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
