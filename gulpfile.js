@@ -35,7 +35,7 @@ gulp.task('connect', function() {
 });
 
 //sass
-gulp.task('scss', function() {
+gulp.task('css', function() {
     gulp.src([path.src.css])
         .pipe(plumber())
         .pipe(concat('styles.min.css'))
@@ -68,13 +68,13 @@ gulp.task('images', function() {
 //watcher
 gulp.task('watch', function(){
     watch([path.watch.css], function(event, cb) {
-        gulp.start('scss');
+        gulp.start('css');
     });
     watch([path.watch.js], function(event, cb) {
         gulp.start('js');
     });
 });
 
-gulp.task('build', ['scss', 'js', 'images']);
+gulp.task('build', ['css', 'js', 'images']);
 
 gulp.task('default', ['connect', 'watch']);
