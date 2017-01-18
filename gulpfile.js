@@ -75,6 +75,6 @@ gulp.task('watch', function(){
     });
 });
 
-gulp.task('build', ['css', 'js', 'images']);
+gulp.task('build', ['css', 'js']);
 
 gulp.task('default', ['connect', 'watch']);
