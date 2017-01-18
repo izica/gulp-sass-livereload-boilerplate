@@ -12,7 +12,7 @@
     "build": "gulp build",
     "images": "gulp images",
     "css": "gulp css",
-    "js": "gulp js",
+    "js": "gulp js"
   },
   "author": "",
   "license": "ISC",
