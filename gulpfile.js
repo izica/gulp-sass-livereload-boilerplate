@@ -16,13 +16,18 @@ var path = {
         images: './assets/i/',
     },
     src: {
+    	images: './src/i/**/*',
         css:    './src/scss/global.scss',
-        js:     './src/js/*.js',
-        images: './src/i/**/*',
+        js: [
+        	'./src/js/libs/*.js',
+        	'./src/js/module/*.js',
+        	'./src/js/page/*.js',
+        	'./src/js/*.js'
+        ],
     },
     watch: {
-        css:   './src/scss/**/*.scss',
-        js:     './src/js/*.js',
+        css: './src/scss/**/*.scss',
+        js:  './src/js/*.js',
     }
 };
 
@@ -44,18 +49,18 @@ gulp.task('css', function() {
         .pipe(csso())
         .pipe(plumber.stop())
         .pipe(gulp.dest(path.build.css))
-        .pipe(connect.reload());;
+        .pipe(connect.reload());
 });
 
 //js
 gulp.task('js', function() {
-    gulp.src([path.src.js])
+    gulp.src(path.src.js)
         .pipe(plumber())
         .pipe(concat('bundle.min.js'))
         .pipe(uglify())
         .pipe(plumber.stop())
         .pipe(gulp.dest(path.build.js))
-        .pipe(connect.reload());;
+        .pipe(connect.reload());
 });
 
 //images

@@ -1,7 +1,12 @@
-@import 'normalize';
+@import 'libs/normalize';
 
-body{
-    img{
-        width: 50%;
-    }
-}
+@import 'mixin/columns';
+@import 'mixin/media';
+
+@import 'base/base';
+@import 'base/fonts';
+
+@import 'module/header';
+@import 'module/footer';
+
+@import 'page/index';

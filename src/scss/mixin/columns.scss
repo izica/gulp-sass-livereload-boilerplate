@@ -1,0 +1,10 @@
+@mixin columns($count, $width_min: 0px, $width_max: 3200px, $margin: 20px) {
+    @media (min-width: #{$width_min}) and (max-width: #{$width_max}) {
+        margin-right: $margin;
+        width: calc((100% / #{$count}) - ((#{$margin} * #{$count - 1}) / #{$count}));
+
+        &:nth-child(#{$count}n) {
+            margin-right: 0;
+        }
+    }
+}
