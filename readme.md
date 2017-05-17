@@ -1,9 +1,9 @@
-##Install
+## Install
 ```bash
     npm install
 ```
 
-##Commands
+## Commands
 ```
     npm start //start livereload server and watch
     npm run build //build sass+js
@@ -12,7 +12,7 @@
     npm run js //build js
 ```
 
-##List of plugins
+## List of plugins
 ```
     gulp
     gulp-autoprefixer
