@@ -1,7 +1,20 @@
+## Features
+* SASS/SCSS minifing
+* JS minifing
+* Images optimizing
+* LiveReload dev server
+
 ## Install
 ```bash
     npm install
 ```
+
+## Usage
+```
+npm start
+```
+
+Open http://localhost:8080
 
 ## Commands
 ```
