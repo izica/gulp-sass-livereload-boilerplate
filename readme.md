@@ -1,3 +1,6 @@
+## Deprecated, use this
+https://github.com/izica/html-sass-babel-webpack-boilerplate
+
 ## Features
 * SASS/SCSS minifing
 * JS minifing
